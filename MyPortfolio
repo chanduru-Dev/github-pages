@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanduru P - Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; line-height: 1.6; }
+    header { background: #007acc; color: white; padding: 20px 0; text-align: center; }
+    .container { width: 90%; max-width: 1000px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; }
+    h1, h2 { color: #007acc; }
+    ul { list-style-type: none; padding-left: 0; }
+    section { margin-bottom: 30px; }
+    .project { margin-bottom: 15px; }
+    footer { text-align: center; padding: 15px; background: #eee; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chanduru P</h1>
+    <p>Bangalore, Karnataka | 9500792656 | <a href="mailto:veeranarjuna@gmail.com" style="color: #fff;">veeranarjuna@gmail.com</a></p>
+    <p><a href="https://linkedin.com/in/ChanduruP" target="_blank" style="color: #fff;">LinkedIn: ChanduruP</a></p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Summary</h2>
+      <p>Versatile and detail-oriented professional skilled in Web Development, Cloud Computing, and IoT. Passionate about problem-solving and delivering innovative tech solutions.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Sri Eshwar College of Engineering</strong>, B.Tech in Information Technology (2020–2024)</p>
+      <p>CGPA: 7.9</p>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certified AWS Cloud Practitioner (2025)</li>
+        <li>AWS Foundational Certification (2025)</li>
+        <li>Competency Certificate (2025)</li>
+        <li>Tiruppur Road Safety Ideathon Finalist (2024)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Cloud:</strong> AWS (S3, EC2, RDS, CloudFormation)</li>
+        <li><strong>Database:</strong> MySQL</li>
+        <li><strong>Tools:</strong> VS Code, Canva</li>
+        <li><strong>Other:</strong> Network and System Troubleshooting</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <strong>AWS Projects</strong>
+        <ul>
+          <li>Static Website Hosting using S3, Route 53, and CloudFront</li>
+          <li>EC2-based Web Server setup with Apache</li>
+          <li>Application deployment on EC2 using shell scripting</li>
+        </ul>
+      </div>
+      <div class="project">
+        <strong>Project Gallery</strong>
+        <p>Built with ReactJS and MongoDB. Includes page components for each project, with user login/signup functionality.</p>
+      </div>
+      <div class="project">
+        <strong>Weather App</strong>
+        <p>Responsive weather application using OpenWeather API and ReactJS.</p>
+      </div>
+      <div class="project">
+        <strong>Smart Streetlight and Energy Saving System</strong>
+        <p>IoT-based system using Arduino and NodeMCU to optimize energy usage through smart lighting.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+        <li>Club Coordinator of Blockchain Technology Club</li>
+        <li>Grand Finalist in Tiruppur Road Safety Ideathon (Top 800 worldwide)</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Chanduru P | All rights reserved.</p>
+  </footer>
+</body>
+</html>
